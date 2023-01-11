@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    background-image: url(wer.jpeg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: right;
+}
+
+div{
+    background-color: pink;
+    color: yellow;
+    opacity: 30%;
+    
+}

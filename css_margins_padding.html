@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Margin Padding</title>
+  </head>
+  <style>
+    h1 {
+      margin-top: 100px;
+      margin-left: 150px;
+      margin-bottom: 200px;
+      margin-right: 300px;
+    }
+    h2 {
+      margin: 200px 300px 400px 500px;
+    }
+
+    p {
+      padding-top: 50px;
+      padding-left: 200px;
+      padding-bottom: 300px;
+      padding-right: 250px;
+    }
+    div{
+        padding: 50px 70px 100px 150px;
+    }
+  </style>
+  <body>
+    <p>
+      In this example the h1 element has a bottom margin of 50px and the h2
+      element has a top margin of 20px. So, the vertical margin between h1 and
+      h2 should have been 70px (50px + 20px). However, due to margin collapse,
+      the actual margin ends up being 50px.
+    </p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae pariatur
+      quasi inventore cum. Excepturi ipsa, impedit sequi repudiandae omnis nobis
+      placeat molestiae minus quod ex fugiat exercitationem. Porro, facilis
+      accusamus?
+    </div>
+  </body>
+</html>

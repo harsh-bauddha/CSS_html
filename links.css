@@ -1,0 +1,38 @@
+ #a1:link{
+    color: rgb(225, 251, 152);
+    
+
+}
+#a2:visited{
+    color: magenta;
+}
+#a2:hover{
+    color: tomato;
+}
+a:active
+{
+    color: darkblue;
+}
+
+div{
+    border-radius: 5px 10px;
+     border: 10px solid black;
+     padding: 20px;
+     width: 400px;
+     margin: 100px;
+     border-image: url(wer.jpeg);
+     background-repeat: repeat;
+     background-size: cover;
+     
+     background-position: right top;
+     background-repeat: repeat;
+}
+
+#divi{
+    border-radius: 10px; 
+    border: solid orange;
+}
+#dic{
+    border-radius: 15px 20px 30px;
+    border: solid magenta;
+}
