@@ -1,0 +1,19 @@
+.box{
+    border: 1px solid black;
+    position: relative;
+    margin-left: 50px;
+    left: 50px;
+}
+.wrapper{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.dicv{
+    border: 1px solid black;
+    background-color: brown;
+    color: white;
+    position: sticky;
+    top: 100px;
+    left: 25px;
+}
