@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p,ul{
+            border: 2px solid palegreen;
+            padding: .5rem;
+        }
+        .block,li{
+                border: 2px solid magenta;
+                padding: .5rem;
+                list-style: none;
+                
+
+        }
+        ul{
+            display: flex;
+          
+        }
+        .span{
+            display: flex;
+           justify-content:left;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <p>I am a paragraph . A short one.
+
+    </p>
+    <ul>
+        <li>Item one </li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <p>I am another paragraph.Some of the <span class="block">words</span>
+    have been wrapped in a <span>span element</span>.</p>
 </body>
 </html>
